@@ -1,0 +1,49 @@
+aad user to login to tenant with domain credential
+
+tahabhai@blockexec.com
+Valu8783
+
+-------------------------------------------------------------------------------------------
+app registration stuff
+
+Display name
+:
+aksdemospn
+Application (client) ID
+:
+68c66e43-1eba-4376-949e-c5f119f5310f
+Object ID
+:
+2fb535ac-8863-450a-b7ef-4d40afe9082f
+Directory (tenant) ID
+:
+c09c61fe-8c31-4b11-924d-0bb9175cd6d6
+Supported account types
+:
+My organization only
+Client credentials
+:
+Add a certificate or secret
+Redirect URIs
+:
+1 web, 0 spa, 0 public client
+Application ID URI
+:
+Add an Application ID URI
+Managed application in local directory
+:
+aksdemospn
+
+
+------------------------------------------------------------
+
+spn stuff
+
+Description
+Expires
+Value
+Secret ID
+aksdemospnsecret
+3/13/2025
+9pK8Q~1SfqTmFzYugr_Bj8Bm8WhV4LdNZcXsvby-
+97643130-67da-4727-89eb-33215d7d417a
