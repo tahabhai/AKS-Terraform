@@ -19,14 +19,14 @@ steps:
   displayName: Terraform Plan
   inputs:
     command: 'plan'
-    environmentServiceName: 'aksdemo'
+    environmentServiceName: 'aksdemoServiceConnection'
     allowTelemetryCollection: false
 
 - task: TerraformCLI@0
   displayName: Terraform Apply
   inputs:
     command: 'apply'
-    environmentServiceName: 'aksdemo'
+    environmentServiceName: 'aksdemoServiceConnection'
     allowTelemetryCollection: true
 
 
