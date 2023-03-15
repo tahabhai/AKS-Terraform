@@ -19,14 +19,14 @@ steps:
   displayName: Terraform Plan
   inputs:
     command: 'plan'
-    environmentServiceName: 'youtube-app-service-connection'
+    environmentServiceName: 'aksdemo'
     allowTelemetryCollection: false
 
 - task: TerraformCLI@0
   displayName: Terraform Apply
   inputs:
     command: 'apply'
-    environmentServiceName: 'youtube-app-service-connection'
+    environmentServiceName: 'aksdemo'
     allowTelemetryCollection: true
 
 
